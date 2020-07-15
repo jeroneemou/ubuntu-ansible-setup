@@ -1,0 +1,6 @@
+---
+- name: Laptop
+  hosts: laptop
+  connection: local
+  roles:
+    - snap

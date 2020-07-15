@@ -1,0 +1,21 @@
+---
+# tasks file for snap
+
+- name: Install PHPStorm
+  snap:
+    name: phpstorm
+    classic: yes
+
+- name: Install slack
+  snap:
+    name: slack
+    classic: yes
+
+- name: Install Spotify
+  snap:
+    name: spotify
+
+- name: Install sublime
+  snap:
+    name: sublime-text
+    classic: yes
